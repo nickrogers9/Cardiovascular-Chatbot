@@ -48,7 +48,7 @@ bash:
   
   ollama pull olmo2:latest
   
-  ollama pull nomic-embed-text  # for embeddings
+  ollama pull nomic-embed-text
 
 ## Setup & Installation
 
