@@ -12,6 +12,7 @@ This project implements a chatbot that answers questions about cardiovascular di
 ## Project Structure
 
 .
+
 ├── app.py # Streamlit web application
 
 ├── vector.py # Document processing & vector store creation
