@@ -29,8 +29,6 @@ This project implements a chatbot that answers questions about cardiovascular di
 
 ├── chroma_db_optimized/ # Vector database (created by vector.py, excluded from git)
 
-├── requirements.txt # (optional) List of dependencies
-
 └── README.md # This file
 
 
