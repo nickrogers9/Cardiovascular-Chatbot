@@ -1,0 +1,112 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the recommended first-line therapy for lipid lowering in patients with chronic coronary disease (CCD), and what is the target LDL-C reduction?",
+      "ground_truth": "Statins remain first-line therapy for lipid lowering in patients with CCD. The aim with high-intensity statin therapy is to achieve a ≥50% reduction in LDL-C levels to reduce the risk of major adverse cardiovascular events (MACE). For patients in whom high-intensity statin therapy is contraindicated or not tolerated, moderate-intensity statin therapy is recommended with the aim of achieving a 30% to 49% reduction in LDL-C levels.",
+      "source": "acc_chronic_cad_2023.pdf, Section 4.2.6 (Lipid Management), Page 33-34"
+    },
+    {
+      "id": 2,
+      "question": "When is long-term beta-blocker therapy NOT recommended for improving outcomes in patients with chronic coronary disease?",
+      "ground_truth": "Long-term beta-blocker therapy is not recommended to improve outcomes in patients with CCD in the absence of myocardial infarction in the past year, left ventricular ejection fraction ≤50%, or another primary indication for beta-blocker therapy (such as angina, uncontrolled hypertension, or arrhythmias).",
+      "source": "acc_chronic_cad_2023.pdf, Top 10 Take-Home Messages (Page 4) and Section 4.3.2 (Beta Blockers), Page 53"
+    },
+    {
+      "id": 3,
+      "question": "For patients with CCD and type 2 diabetes, what two classes of glucose-lowering medications are recommended to reduce cardiovascular risk?",
+      "ground_truth": "For patients with CCD who have type 2 diabetes, the use of either a sodium-glucose cotransporter 2 (SGLT2) inhibitor or a glucagon-like peptide-1 (GLP-1) receptor agonist with proven cardiovascular benefit is recommended to reduce the risk of MACE. These benefits are independent of their effects on glycemic control.",
+      "source": "acc_chronic_cad_2023.pdf, Section 4.2.8 (SGLT2 Inhibitors and GLP-1 Receptor Agonists), Page 40"
+    },
+    {
+      "id": 4,
+      "question": "In patients with CCD and angina, what are the recommended first-line anti-anginal therapies for symptom relief?",
+      "ground_truth": "In patients with CCD and angina, anti-anginal therapy with either a beta blocker, calcium channel blocker (CCB), or long-acting nitrate is recommended for relief of angina or equivalent symptoms. Either a calcium channel blocker or beta blocker is recommended as first-line antianginal therapy.",
+      "source": "acc_chronic_cad_2023.pdf, Top 10 Take-Home Messages (Page 4) and Section 4.3.6 (Medical Therapy for Relief of Angina), Page 57"
+    },
+    {
+      "id": 5,
+      "question": "What are the four medication classes that make up guideline-directed medical therapy (GDMT) for heart failure with reduced ejection fraction (HFrEF) according to the 2022 guidelines?",
+      "ground_truth": "1. Sodium-glucose cotransporter-2 inhibitors (SGLT2i)\n2. Angiotensin receptor-neprilysin inhibitors (ARNi), angiotensin-converting enzyme inhibitors (ACEi), or angiotensin II receptor blockers (ARB)\n3. Beta blockers\n4. Mineralocorticoid receptor antagonists (MRA)",
+      "source": "2022-ACC-AHA-HFSA-Guideline-for-the-Management-of-HF.pdf, Page 3 (Top 10 Take-Home Messages #1), Page 31 (Figure 6), Page 35-40 (Sections 7.3.1-7.3.4)"
+    },
+    {
+      "id": 6,
+      "question": "How is heart failure with preserved ejection fraction (HFpEF) defined in terms of left ventricular ejection fraction (LVEF) percentage?",
+      "ground_truth": "HFpEF is defined as LVEF ≥50% with evidence of spontaneous or provokable increased left ventricular filling pressures (e.g., elevated natriuretic peptide levels, noninvasive or invasive hemodynamic measurements).",
+      "source": "2022-ACC-AHA-HFSA-Guideline-for-the-Management-of-HF.pdf, Page 9, Table 4 (Classification of HF by LVEF)"
+    },
+    {
+      "id": 7,
+      "question": "What are the criteria for implantable cardioverter-defibrillator (ICD) therapy for primary prevention of sudden cardiac death in patients with heart failure?",
+      "ground_truth": "ICD therapy is recommended for primary prevention in patients who are at least 40 days post-myocardial infarction with LVEF ≤30% and NYHA class I symptoms while receiving GDMT, and who have a reasonable expectation of meaningful survival for >1 year.",
+      "source": "2022-ACC-AHA-HFSA-Guideline-for-the-Management-of-HF.pdf, Page 26 (Section 6.1, Recommendation #4), Page 49 (Section 7.4.1, Recommendation #1)"
+    },
+    {
+      "id": 8,
+      "question": "What diagnostic biomarker tests are recommended for patients presenting with dyspnea to support or exclude a diagnosis of heart failure?",
+      "ground_truth": "Measurement of B-type natriuretic peptide (BNP) or N-terminal prohormone of B-type natriuretic peptide (NT-proBNP) is useful to support a diagnosis or exclusion of heart failure.",
+      "source": "2022-ACC-AHA-HFSA-Guideline-for-the-Management-of-HF.pdf, Page 16 (Section 4.2, Recommendation #1)"
+    },
+    {
+      "id": 9,
+      "question": "What is the definition of hypertension according to office blood pressure measurements?",
+      "ground_truth": "According to Table 12, hypertension is defined as office blood pressure ≥140 mmHg systolic and/or ≥90 mmHg diastolic.",
+      "source": "2021_esc_guidelines_prevention_cardiovasculaire_ehj.pdf, Table 12 on page 57."
+    },
+    {
+      "id": 10,
+      "question": "What are the recommended LDL-C (low-density lipoprotein cholesterol) goals for patients with established atherosclerotic cardiovascular disease (ASCVD)?",
+      "ground_truth": "In patients with established ASCVD, lipid-lowering treatment with an ultimate LDL-C goal of <1.4 mmol/L (55 mg/dL) and a ≥50% reduction of LDL-C vs. baseline is recommended.",
+      "source": "2021_esc_guidelines_prevention_cardiovasculaire_ehj.pdf, Page 12, Table 3 (New Recommendations), and Page 52, Section 4.6.3.1."
+    },
+    {
+      "id": 11,
+      "question": "What is the recommended physical activity for adults to reduce all-cause mortality, CV mortality, and morbidity?",
+      "ground_truth": "It is recommended for adults of all ages to strive for at least 150–300 min a week of moderate-intensity or 75–150 min a week of vigorous-intensity aerobic physical activity, or an equivalent combination thereof.",
+      "source": "2021_esc_guidelines_prevention_cardiovasculaire_ehj.pdf, Page 42, Recommendations for physical activity."
+    },
+    {
+      "id": 12,
+      "question": "What is the recommended maximum alcohol consumption per week for cardiovascular disease prevention?",
+      "ground_truth": "It is recommended to restrict alcohol consumption to a maximum of 100 g per week.",
+      "source": "2021_esc_guidelines_prevention_cardiovasculaire_ehj.pdf, Page 12, Table 3 (New Recommendations), and Page 44, Recommendations for nutrition and alcohol."
+    },
+    {
+      "id": 13,
+      "question": "According to the 2020 ACC/AHA guidelines, what are the stages of valvular heart disease and their definitions?",
+      "ground_truth": "- Stage A (At risk): Patients with risk factors for developing VHD\n- Stage B (Progressive): Patients with progressive VHD (mild to moderate severity and asymptomatic)\n- Stage C (Asymptomatic severe): Asymptomatic patients who meet criteria for severe VHD\n  + C1: Asymptomatic patients with severe VHD in whom the LV or RV remains compensated\n  + C2: Asymptomatic patients with severe VHD with decompensation of LV or RV\n- Stage D (Symptomatic severe): Patients who have developed symptoms as a result of VHD",
+      "source": "2020_ACC_AHA_Guideline_for_the_Management_of_Patients_with_Valvular_Heart_Disease_Slide_Set.pdf, Page 23, Table 4"
+    },
+    {
+      "id": 14,
+      "question": "In patients with atrial fibrillation and valvular heart disease, what is the recommended anticoagulation for those with rheumatic mitral stenosis or a mechanical prosthesis?",
+      "ground_truth": "Oral anticoagulation with a vitamin K antagonist is recommended.",
+      "source": "2020_ACC_AHA_Guideline_for_the_Management_of_Patients_with_Valvular_Heart_Disease_Slide_Set.pdf, Page 8, Take-Home Message #3"
+    },
+    {
+      "id": 15,
+      "question": "According to the guidelines, what are the indications for transcatheter aortic valve implantation (TAVI) versus surgical aortic valve replacement (SAVR)?",
+      "ground_truth": "- For patients <65 years or life expectancy >20 years: SAVR recommended\n- For patients 65-80 years: Either SAVR or transfemoral TAVI after shared decision-making\n- For patients >80 years or life expectancy <10 years: Transfemoral TAVI recommended in preference to SAVR\n- For high/prohibitive surgical risk: TAVI recommended if predicted survival >12 months",
+      "source": "2020_ACC_AHA_Guideline_for_the_Management_of_Patients_with_Valvular_Heart_Disease_Slide_Set.pdf, Pages 67-69"
+    },
+    {
+      "id": 16,
+      "question": "What is the recommended management for asymptomatic patients with chronic severe aortic regurgitation and normal LV systolic function (Stage C1)?",
+      "ground_truth": "- Aortic valve surgery is indicated if undergoing cardiac surgery for other indications\n- In patients with low surgical risk, surgery may be considered with progressive decline in LVEF to 55-60% on ≥3 studies or progressive LV dilation (LVEDD >65 mm)",
+      "source": "2020_ACC_AHA_Guideline_for_the_Management_of_Patients_with_Valvular_Heart_Disease_Slide_Set.pdf, Pages 81-82"
+    },
+    {
+      "id": 17,
+      "question": "For an adult patient with hypertension and chronic kidney disease, what blood pressure treatment goal is recommended in the 2017 ACC/AHA guideline, as adapted in the 2019 document?",
+      "ground_truth": "Treatment to a BP goal of less than 130/80 mm Hg is recommended.",
+      "source": "20190301_Prevention_GL_Web_Supplement_CLEAN.pdf, Page 17-18, Table S5. Recommendation 4: 'In adults with hypertension and chronic kidney disease, treatment to a BP goal of less than 130/80 mm Hg is recommended.'"
+    },
+    {
+      "id": 18,
+      "question": "For primary prevention in a 40-75 year old adult with diabetes mellitus, what intensity of statin therapy is recommended by the 2018 Cholesterol Guideline, regardless of their estimated 10-year ASCVD risk?",
+      "ground_truth": "Moderate-intensity statin therapy is indicated.",
+      "source": "20190301_Prevention_GL_Web_Supplement_CLEAN.pdf, Page 21, Table S6, Recommendation 3: 'In adults 40 to 75 years of age with diabetes, regardless of estimated 10-year ASCVD risk, moderate-intensity statin therapy is indicated.'"
+    }
+  ]
+}

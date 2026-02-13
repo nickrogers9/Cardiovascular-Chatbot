@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Vector database (large, can be rebuilt)
+chroma_db_optimized/
+
+# Evaluation outputs (optional – can keep them as samples, but they're large)
+# *.png
+# *.pdf
+# *.csv
+# evaluation_results_*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
