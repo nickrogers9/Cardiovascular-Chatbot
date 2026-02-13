@@ -50,7 +50,7 @@ bash:
 
 ## Setup & Installation
 
-# 1. Clone the repository (if you downloaded as ZIP, extract it):
+### 1. Clone the repository (if you downloaded as ZIP, extract it):
 
 bash:
 
@@ -58,7 +58,7 @@ bash:
   
   cd Cardiovascular-Chatbot
 
-# 2. Create a virtual environment (recommended):
+### 2. Create a virtual environment (recommended):
 
 bash:
 
@@ -66,7 +66,7 @@ bash:
   
   .venv\Scripts\activate   # on Windows
 
-# 3. Install dependencies:
+### 3. Install dependencies:
 
 bash:
 
@@ -78,13 +78,13 @@ bash:
 
   pip install langchain langchain-ollama langchain-chroma streamlit pandas numpy scikit-learn nltk matplotlib seaborn pypdf
 
-# 4. Build the vector store:
+### 4. Build the vector store:
 
 bash:
 
   python vector.py
 
-# 5. Run the chatbot:
+### 5. Run the chatbot:
 
 bash:
 
