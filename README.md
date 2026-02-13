@@ -13,14 +13,23 @@ This project implements a chatbot that answers questions about cardiovascular di
 
 .
 ├── app.py # Streamlit web application
+
 ├── vector.py # Document processing & vector store creation
+
 ├── evaluator.py # Model evaluation script
+
 ├── install_requirements.py # Package installer
+
 ├── run_evaluation.bat # Windows batch file to run evaluation
+
 ├── evaluation_dataset.json # 18 questions with ground truth for evaluation
+
 ├── cardiovascular_docs/ # Folder with source PDF documents
+
 ├── chroma_db_optimized/ # Vector database (created by vector.py, excluded from git)
+
 ├── requirements.txt # (optional) List of dependencies
+
 └── README.md # This file
 
 
